@@ -1,4 +1,4 @@
-# Customer_Conversion_predictive_in_Imbalanced_Dataset
+# Customer_Conversion_prediction_in_Imbalanced_Dataset
 The customer conversion project tackles imbalanced datasets using resampling, feature engineering, and model selection. Accurate predictions for customer conversions are achieved through evaluation metrics and continuous improvement.
 Title: Customer Conversion Project in Imbalanced Dataset
 
@@ -25,9 +25,6 @@ Choose a suitable machine learning algorithm for predicting customer conversions
    a. Gradient Boosting: Algorithms such as XGBoost or LightGBM can effectively handle class imbalance due to their ensemble nature and the ability to assign higher weights to minority class samples.
 
    b. Random Forest: Random Forest models can handle imbalanced data by internally balancing the classes through the construction of decision trees.
-
-   c. Support Vector Machines (SVM): SVM with appropriate class weights or kernel functions can also perform well on imbalanced datasets.
-
 
 5. Model Training and Evaluation:
 Train the chosen model on the preprocessed dataset using the training set. Fine-tune the hyperparameters using techniques like cross-validation. Evaluate the model's performance using appropriate evaluation metrics, considering the imbalanced nature of the dataset. Some commonly used evaluation metrics include:
